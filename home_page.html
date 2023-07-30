@@ -1,0 +1,322 @@
+<html lang="en">
+    <head>
+        <title>重文小学五年级一班</title>
+        <meta charset="gbk">
+        <style>
+            .important_element{font-size:45px;color:yellow}
+            td{font-size:22px;text-align:center}
+            @keyframes colorChange{0%   { color: red; }25%  { color: blue; }50%  { color: green; }75%  { color: yellow; }100% { color: purple; }}
+            #colourful_text{text-align:center;text-color:black;font-size:50px;animation: colorChange 4s infinite}
+            #student{font-size:35px}
+            p{font-size:10px}
+            span{font-size:10px}
+        </style>
+        <script>
+            alert("欢迎来到重文小学五年级一班！")
+        </script>
+        <script>
+            var answer = prompt("你好，请输入你的学号：\n若不是五一班的同学，请输入斜杠（/）")
+            if (answer == ""){var answer = "None"}
+            console.log("访问人学号：" + answer)
+        </script>
+        <script>
+            function View_Introduction(student_number){}
+        </script>
+    </head>
+    <body>
+        <div id="colourful_text">
+            <h3><b>欢迎来到重文小学五年级一班！</b></h3>
+        </div>
+        <p style="font-size:5px;text-align:center">V1.1.0版本</p>
+        <div>
+            <table align="center" bgcolor="SkyBlue" border="2px">
+                <tbody>
+                    <tr>
+                        <td>科任老师</td>
+                        <td>老师姓名</td>
+                    </tr>
+                    <tr>
+                        <td class="important_element"><b>语文（班主任）</b></td>
+                        <td class="important_element"><b>陈仪（一至三年级）——>赖斌华（四年级至现在）</b></td>
+                    </tr>
+                    <tr>
+                        <td class="important_element"><b>数学（副本主任）</b></td>
+                        <td class="important_element"><b>刘晓慧（一至三年级）——>李绮桥（四年级至现在）</b></td>
+                    </tr>
+                    <tr>
+                        <td>英语</td>
+                        <td>梁淑仪（一年级至现在）、黄嘉瑜（？`年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>科学</td>
+                        <td>林丹燕（一年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>音乐</td>
+                        <td>黄依仪（一至四年级）——>？？？*（五年级上）——>梁淑仪（五年级下至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>美术</td>
+                        <td>黄颖怡（一年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>体育</td>
+                        <td>郑朝骏（一年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>道德与法治（语文）</td>
+                        <td>陈仪（一至三年级）——>赖斌华（四年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>综合实践（语文）</td>
+                        <td>陈仪（一至三年级）——>赖斌华（四年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>信息技术<br>（此科目只在四至六年级开放）</td>
+                        <td>李绮桥（四年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>心理<br>阅读（语文）<br>书法（语文）</td>
+                        <td>刘恬（？`年级至现在）<br>陈仪（一至三年级）——>赖斌华（四年级至现在）<br>陈仪（一至三年级）——>赖斌华（四年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>班队</td>
+                        <td>陈仪（一至三年级）——>赖斌华（四年级至现在）</td>
+                    </tr>
+                    <tr>
+                        <td>`（注释）</td>
+                        <td>四或五（年级）</td>
+                    </tr>
+                <tr>
+                    <td>*（注释）</td>
+                    <td>忘了叫什么名字了...</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="student">
+            <table align="center" bgcolor="SkyBlue" border="2px">
+                <tr>
+                    <td>学生头衔+学生学号</td>
+                    <td>学生姓名</td>
+                    <td>在班级饰演阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:green">班级贡献者</p>1</td>
+                    <td>郑索恩（一年级）——>陈盛杰（二年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(1)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:brown">内卷人</p>2</td>
+                    <td>周昱昊<input type="button" value="查看介绍" onclick="View_Introduction(2)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:blue">听话人<span style="color:HotPink">恋人A</span></p>3</td>
+                    <td>郑珊珊<input type="button" value="查看介绍" onclick="View_Introduction(3)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>4</td>
+                    <td>刘智明<input type="button" value="查看介绍" onclick="View_Introduction(4)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td class="important_element"><p style="color:Firebrick">程序员<span style="color:GreenYellow">清廉人</span></p><b>5</b></td>
+                    <td class="important_element"><b>郝桐达（开发本网站人员）</b><input type="button" value="查看介绍" onclick="View_Introduction(5)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:Magenta">乐观主义者<span style="color:OrangeRed">学霸</span><span style="color:black">足球队</span></p>6</td>
+                    <td>黄子劲<input type="button" value="查看介绍" onclick="View_Introduction(6)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:DarkRed">舞者<span style="color:DarkOrange">谐星</span><span style="color:#A020F0">利己主义者</span><span style="color:HotPink">恋人B</span></p>7</td>
+                    <td>代子墨<input type="button" value="查看介绍" onclick="View_Introduction(7)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:SaddleBrown">不明动物<span style="color:#4169E1">海王</span></p>8</td>
+                    <td>刘柏延<input type="button" value="查看介绍" onclick="View_Introduction(8)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:gray">中立阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>9</td>
+                    <td>雷雅轩<input type="button" value="查看介绍" onclick="View_Introduction(9)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:DarkRed">惹事人<span style="color:black">足球队</span></p>10</td>
+                    <td>梁栩嫣<input type="button" value="查看介绍" onclick="View_Introduction(10)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:brown">文学家</p>11</td>
+                    <td>刘西妍<input type="button" value="查看介绍" onclick="View_Introduction(11)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:black">足球队<span style="color:#8B8989">仇人</span><span style="color:HotPink">恋人C</span></p>12</td>
+                    <td>黄鹏宇<input type="button" value="查看介绍" onclick="View_Introduction(12)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:gray">中立阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:orange">搞笑之王</p>13</td>
+                    <td>王语馨<input type="button" value="查看介绍" onclick="View_Introduction(13)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:red">六边形战士</p>14</td>
+                    <td>戴均昊<input type="button" value="查看介绍" onclick="View_Introduction(14)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#A020F0">利己主义者<span style="color:red">校霸</span></p>15</td>
+                    <td>郑世骏<input type="button" value="查看介绍" onclick="View_Introduction(15)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>16</td>
+                    <td>尹相至<input type="button" value="查看介绍" onclick="View_Introduction(16)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#FF8C00">通讯兵</p>17</td>
+                    <td>郑元泺<input type="button" value="查看介绍" onclick="View_Introduction(17)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:red">内卷主义者<span style="color:green">班级贡献者</span></p>18</td>
+                    <td>叶梓言<input type="button" value="查看介绍" onclick="View_Introduction(18)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶中立</td>
+                </tr>
+                <tr>
+                    <td><p style="#8B8970">书法家<span style="color:#8B8989">仇人</span></p>19</td>
+                    <td>李思铭<input type="button" value="查看介绍" onclick="View_Introduction(19)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#436EEE">跟班<span style="color:black">足球队</span></p>20</td>
+                    <td>陈思成<input type="button" value="查看介绍" onclick="View_Introduction(20)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:gray">中立阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:Magenta">乐观主义者</p>21</td>
+                    <td>孙一涵<input type="button" value="查看介绍" onclick="View_Introduction(21)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生<span style="color:HotPink">恋人C</span></p>22</td>
+                    <td>温芊芊<input type="button" value="查看介绍" onclick="View_Introduction(22)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:OrangeRed">学霸</p>23</td>
+                    <td>袁梓添<input type="button" value="查看介绍" onclick="View_Introduction(23)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:green">班级贡献者</p>24</td>
+                    <td>潘立轩<input type="button" value="查看介绍" onclick="View_Introduction(24)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>25</td>
+                    <td>杨林浩（一年级到四年级上）——>席佳欣（四年级下到现在）<input type="button" value="查看介绍" onclick="View_Introduction(25)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:DarkGreen">知错能改<span style="color:DarkRed">惹事人</span></p>26</td>
+                    <td>朱子轶<input type="button" value="查看介绍" onclick="View_Introduction(26)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>27</td>
+                    <td>贾灏锦<input type="button" value="查看介绍" onclick="View_Introduction(27)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:red">内卷主义者<span style="color:Magenta">乐观主义者</span></p>28</td>
+                    <td>刘楚越<input type="button" value="查看介绍" onclick="View_Introduction(28)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:grey">摆烂人</p>29</td>
+                    <td>韩安琳<input type="button" value="查看介绍" onclick="View_Introduction(29)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:Magenta">乐观主义者</p>30</td>
+                    <td>许雅涵<input type="button" value="查看介绍" onclick="View_Introduction(30)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:gray">不写作业人</p>31</td>
+                    <td>王怡煊<input type="button" value="查看介绍" onclick="View_Introduction(31)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:green">一班之长<span style="color:HotPink">恋人B</span></p>32</td>
+                    <td>窦文轩<input type="button" value="查看介绍" onclick="View_Introduction(32)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#A020F0">利己主义者<span style="color:red">内卷狂</span></p>33</td>
+                    <td>杨熤<input type="button" value="查看介绍" onclick="View_Introduction(33)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>34</td>
+                    <td>傅浩然<input type="button" value="查看介绍" onclick="View_Introduction(34)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#436EEE">豺狼</p>35</td>
+                    <td>温博<input type="button" value="查看介绍" onclick="View_Introduction(35)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:gray">中立阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>36</td>
+                    <td>刘旭安（一年级到四年级）——>杨龙轩（四年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(36)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:GreenYellow">清廉人</p>37</td>
+                    <td>罗杰熙（二年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(37)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:red">校霸</p>38</td>
+                    <td>邱佳梁（二年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(38)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:white">努力的学生</p>39</td>
+                    <td>邱佳栋（二年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(39)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:OrangeRed">学霸</p>40</td>
+                    <td>潘梓晴（二年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(40)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:#FFFFE0">羽毛球高手</p>41</td>
+                    <td>苏瑞殷（三年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(41)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+                <tr>
+                    <td><p style="color:red">暴力女</p>42</td>
+                    <td>徐佳曦（三年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(42)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:red">邪恶阵营</td>
+                </tr>
+                <tr>
+                    <td><p style="color:DarkRed">爆粗王<span style="color:HotPink">恋人A</span></p>43</td>
+                    <td>刘劼（四年级到现在）<input type="button" value="查看介绍" onclick="View_Introduction(43)"><input type="button" value="写介绍" onclick="Write_Introduction()"></td>
+                    <td style="color:green">善良中立</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
